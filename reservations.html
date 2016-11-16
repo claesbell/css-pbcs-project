@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="eyebrow">
+            <img width="100%" src="images/cropped-landon_hotel_header_960x85.png" />
+        </div>
+         <div class="header">
+            <a href="index.html">
+
+                <img class="mySlides" src="images/headers/Paris.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/Hong-Kong.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/San-Francisco.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/London.jpg" style="width:100%">
+                <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 8000); // Change image every 2 seconds
+            }
+        </script>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="nav"><a href="index.html">HOME</a></li>
+                <li class="nav"><a href="room_service.html">ROOM SERVICE</a></li>
+                <li class="nav"><a href="specials.html">SPECIALS</a></li>
+                <li class="nav"><a href="reservations.html">RESERVATIONS</a></li>
+                <li class="nav"><a href="meetings_events.html">MEETINGS &amp; EVENTS</a></li>
+                <li class="nav"><a href="news.html">NEWS</a></li>
+                <li class="nav"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <div class="article">
+                <h1>Reservations</h1>
+                <h2>Tell us when you'll be here!</h2>
+            
+             <form>
+        <p>Let us know when you plan to visit!</p>
+        <p>First Name <span style="color:#622F90">*</span> <input type="name" name="firstname"></p>
+                 <p>Last Name <span style="color:#622F90">*</span> <input type="name" name="lastname"></p>
+        <p>Email <span style="color:#622F90">*</span> &emsp; &emsp;<input type="email" name="email"></p>
+        <p>Details of your visit:</p>
+        <textarea name="message" rows="10" cols="40">
+</textarea>
+        <p><input type="submit" value="Send"> </p>
+        
+        
+        </form>
+            </div>
+            <div class="footer">
+              &nbsp;  ©2014 The Landon Hotel
+            </div>
+        </div>
+</body>
+
+</html>

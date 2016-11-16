@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings &amp; Events</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="eyebrow">
+            <img width="100%" src="images/cropped-landon_hotel_header_960x85.png" />
+        </div>
+         <div class="header">
+            <a href="index.html">
+
+                <img class="mySlides" src="images/headers/Paris.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/Hong-Kong.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/San-Francisco.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/London.jpg" style="width:100%">
+                <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 10000); // Change image every 2 seconds
+            }
+        </script>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="nav"><a href="index.html">HOME</a></li>
+                <li class="nav"><a href="room_service.html">ROOM SERVICE</a></li>
+                <li class="nav"><a href="specials.html">SPECIALS</a></li>
+                <li class="nav"><a href="reservations.html">RESERVATIONS</a></li>
+                <li class="nav"><a href="meetings_events.html">MEETINGS &amp; EVENTS</a></li>
+                <li class="nav"><a href="news.html">NEWS</a></li>
+                <li class="nav"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <div class="article">
+                <h1>There's a Landon just for you...</h1>
+                <p> All of the following meetings take place in the Bernal Height Landon Hotel in San Francisco, in their new, state-of the-art conference room.</p>
+                <hr>
+            </div>
+            <div class="article">
+                <div class="text">
+                    <h2>23rd Annual Inventors International Exhibition and Conference:</h2>
+                    <ul>
+                        <li>Friday, October 31st through Sunday, November 2nd 2014</li>
+                    </ul>
+                    <p>The best scientific minds, showing their riveting and forward-thinking inventions, will be in-house for a science and technology-packed weekend. The halls, conference room, and lobby of the Bernal Heights Landon Hotel will be brimming with exhibits, presentations, and demonstrations - providing something for everyone in the family.</p>
+                </div>
+                <div class="image"><img align="right" src="images/inventors_international.jpg" /></div>
+
+            </div>
+            <div class="article">
+                <div class="text">
+                    <h2>KinetEco, Inc. Solar Seminar:</h2>
+                    <ul>
+                        <li>Friday, November 7th through Sunday, November 9th 2014</li>
+                    </ul>
+                    <p>San Francisco's own KinetEco, Inc. has been a trailblazer in solar energy for the past two decades, and has solarized thousands of businesses and residences throughout the world. Join their talented team of engineers and scientists for this not-to-be-missed event that will explore solar as the must-have energy source of the present and future.
+                    </p>
+                </div>
+                <div class="image"><img align="right" src="images/solar_conference.jpg" /></div>
+
+            </div>
+            <div class="article">
+                <div class="text">
+                    <h2>Classic Car Social:</h2>
+                    <ul>
+                        <li>Tuesday, November 11th through Wednesday, November 12th 2014</li>
+                    </ul>
+                    <p>Join other classic car enthusiasts for the monthly classic car social. Bring your car to showcase and share your hobby with others, and enjoy a hearty breakfast buffet. Reservations are required, as parking space is limited for the event.
+                    </p>
+                </div>
+                <div class="image"><img align="right" src="images/classic_car.jpg" /></div>
+
+            </div>
+            <div class="article">
+                <div class="text">
+                    <h2>Hansel &amp; Petal California Native Gardening Seminar:
+</h2>
+                    <ul>
+                        <li>Friday, November 21st through Sunday, November 23rd 2014
+</li>
+                    </ul>
+                    <p>With California's current drought situation, never has it been timelier to attend one of Hansel &amp; Petal's informative seminars on native gardening. You'll learn how to select and layout plants for an attractive and drought-resistant landscape. In addition, a tour of some of the best local native gardens will be offered on Saturday morning.
+
+                    </p>
+                </div>
+                <div class="image"><img align="right" src="images/california_natives.jpg" /></div>
+
+            </div>
+            
+            <div class="footer">
+               &nbsp; ©2014 The Landon Hotel
+            </div>
+        </div>
+</body>
+
+</html>

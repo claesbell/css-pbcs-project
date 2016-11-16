@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Service</title>
+    <link rel="stylesheet" href="css/style_room.css">
+</head>
+
+<body>
+
+
+
+<div id="roomservice">
+    <div id="eyebrowroom">
+        <img width="100%" src="images/cropped-landon_hotel_header_960x85.png" />
+    </div>
+     <div class="header">
+            <a href="index.html">
+
+                <img class="mySlides" src="images/headers/Paris.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/Hong-Kong.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/San-Francisco.jpg" style="width:100%">
+                <img class="mySlides" src="images/headers/London.jpg" style="width:100%">
+                <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 8000); // Change image every 2 seconds
+            }
+        </script>
+        </div>
+    <div class="nav">
+        <ul>
+            <li class="nav"><a href="index.html">HOME</a></li>
+            <li class="nav"><a href="room_service.html">ROOM SERVICE</a></li>
+            <li class="nav"><a href="specials.html">SPECIALS</a></li>
+            <li class="nav"><a href="reservations.html">RESERVATIONS</a></li>
+            <li class="nav"><a href="meetings_events.html">MEETINGS &amp; EVENTS</a></li>
+            <li class="nav"><a href="news.html">NEWS</a></li>
+            <li class="nav"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="body">
+    <div class="article">
+        <h1>Room Service</h1>
+        <div class="text">
+
+
+           <p> No matter what you're craving, Restaurant to Room has you covered. Our fast and friendly delivery service brings you hot, fresh food, from a diverse choice of local restaurants.</p>
+            <li>Dinner Destiny</li>
+            <li>Eat Your Veggies Café</li>
+            <li>Food Rendezvous</li>
+            <li>Jeffrey's on the Square</li>
+            <li>Legume Palace</li>
+            <li>Pickles &amp; Pepperoni Deli</li>
+            <li>Picky Palate</li>
+            <li>Simply Safe</li>
+            <li> Supreme &amp; Fancy Pizza</li>
+            <li>Totally Fishy</li>
+
+
+        </div>
+</div>
+        <div class="image"><img width="250" align="right top" src="images/restaurant-to-room_web.png" /></div>
+<div class="article">
+        Simply fill out the online form below, and we'll have food delivered directly to your room, within an hour, or your meal is free. The only difficult part is choosing. (Sorry, we can't help you with that.)
+    
+    </div>
+    <form>
+        <div class="dropdown">
+            <p><a href="">Restaurant preference</a></p>
+  <div class="dropdown-content">
+   <input type="checkbox" name="restaurant" value="Jeffreys">Dinner Destiny<br>
+    <input type="checkbox" name="restaurant" value="Jeffreys">Eat Your Veggies Café<br>
+    <input type="checkbox" name="restaurant" value="Jeffreys">Food Rendezvous<br>
+     
+
+
+<input type="checkbox" name="restaurant" value="Jeffreys">Jeffrey's on the Square<br>
+<input type="checkbox" name="restaurant" value="Legume">Legume Palace<br>
+<input type="checkbox" name="restaurant" value="Pickles">Pickles & Pepperoni Deli<br>
+<input type="checkbox" name="restaurant" value="Picky">Picky Palate<br>
+<input type="checkbox" name="restaurant" value="Simply">Simply Safe Supreme & Fancy Pizza<br>
+<input type="checkbox" name="restaurant" value="Jeffreys">Totally Fishy<br>
+            </div>
+        </div>
+        <p>Name <input type="text" name="fullname"></p>
+        <p>Room Number <input type="number" name="roomnumber"></p>
+        <p>Delivery Time <input type="time" name="deliverytime"></p>
+        <p>Phone <input type="tel" name="phone"></p>
+        <p>Email <input type="email" name="email"></p>
+        <p><input type="submit"> </p>
+        
+        
+        </form>
+    <div class="footer">
+       &nbsp;  ©2014 The Landon Hotel
+    </div>
+
+</div>
+    </body>
+
+</html>

@@ -1,0 +1,145 @@
+body {width:1024px;
+    margin:auto;
+    background-color:#c2c5d6;}
+div.main {
+    background-color: #FFFFFF;
+    width: 99%;
+    font-family: Helvetica, Arial, sans-serif;
+    color:#444;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+div.eyebrow {
+    background-color: inherit;
+    font-family: inherit;
+    clear: both;
+    width: 99%
+}
+
+div.header {
+    background-color: inherit;
+    font-family: inherit;
+    clear: both;
+    width: 100%;
+    margin: 0%;
+}
+
+
+div.body {
+    background-color: inherit;
+    font-family: inherit;
+    clear: both;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+div.article {
+    background-color: inherit;
+    font-family: inherit;
+    clear:both;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: .5em;
+    padding-left:1.5em;
+    padding-right:1.5em;
+    padding-bottom:.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+
+}
+div.text {
+    background-color: inherit;
+    font-family: inherit;
+    float:left;
+    width:65%;
+    line-height:110%;
+
+}
+
+div.image {
+    background-color: inherit;
+    font-family: inherit;
+    float:right;
+    width:30%;
+    margin-top:.5em;
+    margin-bottom:.5em;
+
+
+    
+}
+
+div.nav {
+    background-color: inherit;
+    width: 100%;
+    margin: 0px;
+    clear: both;
+    height: 2em;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align:center;
+}
+
+div.footer {
+    background-color:#602e8b;  
+    font-family: Helvetica, Arial, sans-serif;
+    clear:both;
+    height: 2em;
+    color: white;
+    font-size: 12px;
+    padding-top: .75em;
+    width:100%;
+    
+
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 120%;
+    color: 	#622F90;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 110%;
+    color:#444;
+    
+}
+h3 {font-size:100%;
+    
+}
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    
+}
+
+li.nav {
+    list-style: none;
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 16px;
+}
+li {color: 	#622F90
+    
+    font-size:14px;}
+li.specials {
+    color: #622F90;
+    font-size:14px;
+}
+
+a {
+    color: #959bd1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.title a {
+    
+    text-decoration: none;
+    color:black;
+}
